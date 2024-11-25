@@ -1,3 +1,3 @@
 export const environment = {
-    apiUrl: 'https://blog-angular-workshop-default-rtdb.firebaseio.com',
+    apiUrl: 'http://localhost:3000/api',
 };
