@@ -4,6 +4,9 @@
             Recent posts
         </h2>
 
+        @if (isLoading) {
+        <app-loader />
+        }@else {
         <div>
             @for (post of posts; track $index) {
             <div class="aside-theme">
@@ -15,6 +18,6 @@
             </div>
             }
         </div>
-
+        }
     </div>
 </aside>

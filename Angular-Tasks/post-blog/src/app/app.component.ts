@@ -11,13 +11,4 @@ import { MainComponent } from './main/main.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
-  // title = 'post-blog';
-
-
-  // ngOnInit() {
-  //   this.http.get('https://blog-angular-workshop-default-rtdb.firebaseio.com/product.json').subscribe(x => {
-  //     console.log(x);
-  //   })
-  // }
-}
+export class AppComponent { }
